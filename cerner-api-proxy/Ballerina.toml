@@ -1,0 +1,11 @@
+[package]
+org = "wso2healthcare"
+name = "cerner_api_proxy"
+version = "0.1.0"
+export = ["cerner_api_proxy"]
+distribution = "2201.1.2"
+authors = ["WSO2 Healthcare"]
+keywords = ["Healthcare","FHIR","Cerner"]
+
+[build-options]
+observabilityIncluded = true
