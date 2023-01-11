@@ -1,0 +1,11 @@
+[package]
+org = "wso2healthcare"
+name = "smart_config_api"
+version = "0.1.5"
+export = ["smart_config_api.config","smart_config_api.constants","smart_config_api.handlers","smart_config_api.models"]
+distribution = "2201.2.3"
+authors = ["WSO2 Healthcare"]
+keywords = ["Healthcare","FHIR","SMART"]
+
+[build-options]
+observabilityIncluded = true
